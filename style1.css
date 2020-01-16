@@ -1,0 +1,114 @@
+*
+{
+	margin: 0px;
+	padding:0px;
+}
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/img1.jpeg);
+	height:100vh;
+	background-position: center;
+	background-size: cover;
+
+
+
+}
+
+ul
+{
+	float: right;
+	list-style: none;
+	margin-top: 25px;
+}
+ul li
+{
+	display: inline-block;
+}
+ul li a
+{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 15px;
+	border:1px solid transparent;
+	color: white;
+	transition: 0.6s ease;
+	padding: 5px 15px;
+}
+ul li.active a
+{
+	background-color: white;
+	color: black;
+
+}
+ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.logo img
+{
+	width: 100px;
+	height: 80px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px
+}
+.main
+{
+	max-width: auto;
+	shape-margin: auto;
+	border:1px solid white;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+
+.title
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+h1
+{
+	text-align: center;
+	color: white;
+
+}
+.container
+{
+	position: absolute;
+	top:40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.wish
+{
+	margin-left: 280px;
+	margin-top: 15px;
+	color: red;
+
+}
+.p1
+{
+	 display: block;
+	text-align: center;
+	color:white;
+	margin-top: 200px;
+
+}
+.hb
+{
+	color: red;
+}
+.bf
+{
+	color: red;
+}
+.q1
+{
+		color: red;
+}
